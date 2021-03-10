@@ -1,0 +1,23 @@
+{
+  "name": "HowToExpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "jest": {
+    "testEnviroment": "node"
+  },
+  "author": "Github's Tunisian Community",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.3",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+  }
+}
